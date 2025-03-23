@@ -1,15 +1,73 @@
-# Ansh & Riley Full-Stack Template
+# Kids Trivia Adventure
 
-This is a full-stack template project for Software Composers to create  applications with AI.
+A fun and educational trivia game for kids aged 8-12, inspired by Trivia Crack 2. This game features:
 
-## Getting started
-To create a new project, you go to `/paths`, choose from our list of Paths, and then use Cursor's Composer feature to quickly scaffold your project!
+- Six engaging categories: Science & Nature, History & Geography, Math & Logic, Arts & Literature, Fun Facts, and Sports & Games
+- Kid-friendly questions with explanations
+- Beautiful, animated interface
+- Score tracking and achievements
+- No ads or in-app purchases
 
-You can also edit the Path's prompt template to be whatever you like!
+## Getting Started
 
-## Technologies used
-This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
-- React with Next.js 14 App Router
-- TailwindCSS
-- Firebase Auth, Storage, and Database
-- Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env.local` file in the root directory and add any required environment variables.
+
+4. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to start playing!
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Firebase (optional for user progress saving)
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx           # Home page
+│   ├── layout.tsx         # Root layout
+│   └── globals.css        # Global styles
+├── components/
+│   ├── GameWheel.tsx      # Main game wheel component
+│   └── QuestionCard.tsx   # Question display component
+└── lib/
+    ├── types.ts           # TypeScript types
+    └── sampleQuestions.ts # Question database
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
