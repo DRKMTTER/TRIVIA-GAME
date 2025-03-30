@@ -12,7 +12,7 @@ export interface Question {
   options: string[];
   correctAnswer: string;
   explanation: string;
-  funFact: string;
+  funFact?: string;
   difficulty: 'easy' | 'medium' | 'hard';
 }
 
