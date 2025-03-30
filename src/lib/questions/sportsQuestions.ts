@@ -1,7 +1,7 @@
 import { Question } from '../types';
 
 export const sportsQuestions: Question[] = [
-  // Easy Sports Questions (1-17)
+  // Easy Sports Questions (1-10)
   {
     id: 'sports-1',
     category: 'sports',
@@ -9,6 +9,7 @@ export const sportsQuestions: Question[] = [
     options: ['11', '10', '9', '12'],
     correctAnswer: '11',
     explanation: 'A soccer team has 11 players on the field during a match.',
+    funFact: 'The first official soccer match was played in 1863 in London, and the rules were written down for the first time!',
     difficulty: 'easy',
   },
   {
@@ -18,6 +19,7 @@ export const sportsQuestions: Question[] = [
     options: ['Basketball', 'Football', 'Tennis', 'Soccer'],
     correctAnswer: 'Basketball',
     explanation: 'A slam dunk is when a player jumps and pushes the ball down through the basketball hoop!',
+    funFact: 'The first slam dunk in basketball history was performed by Joe Fortenberry in 1936 during the Olympics!',
     difficulty: 'easy',
   },
   {
@@ -27,6 +29,7 @@ export const sportsQuestions: Question[] = [
     options: ['Black', 'Red', 'White', 'Blue'],
     correctAnswer: 'Black',
     explanation: 'The black belt represents mastery in martial arts!',
+    funFact: 'The black belt tradition started in Japan, where martial artists would dye their white belts black with their sweat and blood from training!',
     difficulty: 'easy',
   },
   {
@@ -36,6 +39,7 @@ export const sportsQuestions: Question[] = [
     options: ['Chess', 'Monopoly', 'Scrabble', 'Snakes and Ladders'],
     correctAnswer: 'Chess',
     explanation: 'Chess is played on a board with 64 black and white squares!',
+    funFact: 'The number of possible unique chess games is greater than the number of atoms in the observable universe!',
     difficulty: 'easy',
   },
   {
@@ -45,6 +49,7 @@ export const sportsQuestions: Question[] = [
     options: ['Ball', 'Puck', 'Stone', 'Disc'],
     correctAnswer: 'Ball',
     explanation: 'In tennis, players hit a small yellow ball back and forth over a net!',
+    funFact: 'Tennis balls were originally white until 1972, when they became yellow to make them more visible on TV!',
     difficulty: 'easy',
   },
   {
@@ -54,6 +59,7 @@ export const sportsQuestions: Question[] = [
     options: ['Baseball', 'Soccer', 'Hockey', 'Basketball'],
     correctAnswer: 'Baseball',
     explanation: 'Baseball players use a bat to hit a ball thrown by the pitcher!',
+    funFact: 'The first baseball game was played in 1846 in Hoboken, New Jersey, and the first professional team was formed in 1869!',
     difficulty: 'easy',
   },
   {
@@ -63,6 +69,7 @@ export const sportsQuestions: Question[] = [
     options: ['Touchdown', 'Goal', 'Point', 'Basket'],
     correctAnswer: 'Touchdown',
     explanation: 'In football, scoring a touchdown is worth 6 points!',
+    funFact: 'The first touchdown in NFL history was scored by William "Pudge" Heffelfinger in 1892!',
     difficulty: 'easy',
   },
   {
@@ -72,6 +79,7 @@ export const sportsQuestions: Question[] = [
     options: ['Monopoly', 'Chess', 'Go Fish', 'Memory'],
     correctAnswer: 'Monopoly',
     explanation: 'In Monopoly, players roll dice to move around the board!',
+    funFact: 'The original Monopoly game was based on Atlantic City, New Jersey, where the creator\'s family vacationed!',
     difficulty: 'easy',
   },
   {
@@ -81,6 +89,7 @@ export const sportsQuestions: Question[] = [
     options: ['Hockey', 'Soccer', 'Basketball', 'Baseball'],
     correctAnswer: 'Hockey',
     explanation: 'Hockey players wear skates and play on an ice rink!',
+    funFact: 'The first organized indoor hockey game was played in Montreal, Canada, in 1875!',
     difficulty: 'easy',
   },
   {
@@ -90,6 +99,7 @@ export const sportsQuestions: Question[] = [
     options: ['Bowling', 'Golf', 'Tennis', 'Soccer'],
     correctAnswer: 'Bowling',
     explanation: 'In bowling, you roll a ball to knock down 10 pins!',
+    funFact: 'The first bowling alley in America was built in New York City in 1840!',
     difficulty: 'easy',
   },
   {
@@ -99,6 +109,7 @@ export const sportsQuestions: Question[] = [
     options: ['Playing Cards', 'Uno', 'Pokemon', 'Go Fish'],
     correctAnswer: 'Playing Cards',
     explanation: 'A standard deck of playing cards has four suits: hearts, diamonds, clubs, and spades!',
+    funFact: 'The four suits in playing cards represent the four seasons: hearts (spring), diamonds (summer), clubs (fall), and spades (winter)!',
     difficulty: 'easy',
   },
   {
@@ -108,6 +119,7 @@ export const sportsQuestions: Question[] = [
     options: ['Tennis', 'Soccer', 'Basketball', 'Football'],
     correctAnswer: 'Tennis',
     explanation: 'Tennis players use rackets to hit the ball over the net!',
+    funFact: 'The first tennis rackets were made of wood and had strings made from sheep gut!',
     difficulty: 'easy',
   },
   {
@@ -117,6 +129,7 @@ export const sportsQuestions: Question[] = [
     options: ['Ball', 'Puck', 'Stone', 'Disc'],
     correctAnswer: 'Ball',
     explanation: 'In soccer, players kick a round ball to score goals!',
+    funFact: 'The first soccer balls were made from inflated pig bladders and covered in leather!',
     difficulty: 'easy',
   },
   {
@@ -126,6 +139,7 @@ export const sportsQuestions: Question[] = [
     options: ['Checkers', 'Chess', 'Monopoly', 'Sorry'],
     correctAnswer: 'Checkers',
     explanation: 'Checkers is played with red and black pieces called checkers!',
+    funFact: 'Checkers is one of the oldest board games, dating back to 3000 BCE in ancient Mesopotamia!',
     difficulty: 'easy',
   },
   {
@@ -135,6 +149,7 @@ export const sportsQuestions: Question[] = [
     options: ['Ball', 'Puck', 'Stone', 'Disc'],
     correctAnswer: 'Ball',
     explanation: 'In basketball, players throw or shoot the ball into the hoop!',
+    funFact: 'The first basketball game was played with a soccer ball and peach baskets as hoops!',
     difficulty: 'easy',
   },
   {
@@ -144,6 +159,7 @@ export const sportsQuestions: Question[] = [
     options: ['Uno', 'Go Fish', 'Crazy Eights', 'Old Maid'],
     correctAnswer: 'Uno',
     explanation: 'In Uno, you must yell "UNO" when you have one card left!',
+    funFact: 'Uno was invented in 1971 by Merle Robbins, a barber from Ohio, who sold the rights for $50,000!',
     difficulty: 'easy',
   },
   {
@@ -153,6 +169,7 @@ export const sportsQuestions: Question[] = [
     options: ['Golf', 'Baseball', 'Tennis', 'Hockey'],
     correctAnswer: 'Golf',
     explanation: 'Golf players use clubs to hit a small white ball into holes!',
+    funFact: 'The first golf balls were made of wood, then leather stuffed with feathers, before becoming the modern rubber balls we use today!',
     difficulty: 'easy',
   },
   {
@@ -162,6 +179,7 @@ export const sportsQuestions: Question[] = [
     options: ['Connect Four', 'Tic Tac Toe', 'Checkers', 'Chess'],
     correctAnswer: 'Connect Four',
     explanation: 'In Connect Four, players try to get four discs in a row horizontally, vertically, or diagonally!',
+    funFact: 'Connect Four was invented in 1974 and has been solved by computers - the first player can always win with perfect play!',
     difficulty: 'easy',
   },
   {
@@ -171,6 +189,7 @@ export const sportsQuestions: Question[] = [
     options: ['White', 'Yellow', 'Orange', 'Pink'],
     correctAnswer: 'White',
     explanation: 'Standard ping pong balls are white and made of plastic!',
+    funFact: 'Ping pong balls were originally made of cork, but now they\'re made of celluloid or similar plastics!',
     difficulty: 'easy',
   },
   {
@@ -180,6 +199,7 @@ export const sportsQuestions: Question[] = [
     options: ['64', '49', '81', '36'],
     correctAnswer: '64',
     explanation: 'A chess board has 64 squares, arranged in an 8x8 grid!',
+    funFact: 'The number of possible unique chess games is greater than the number of atoms in the observable universe!',
     difficulty: 'easy',
   },
   {
@@ -189,6 +209,7 @@ export const sportsQuestions: Question[] = [
     options: ['Badminton', 'Tennis', 'Squash', 'Table Tennis'],
     correctAnswer: 'Badminton',
     explanation: 'Badminton players hit a shuttlecock (also called a birdie) over the net!',
+    funFact: 'Badminton is the fastest racquet sport in the world, with shuttlecocks reaching speeds of over 200 mph!',
     difficulty: 'easy',
   },
   {
@@ -198,6 +219,7 @@ export const sportsQuestions: Question[] = [
     options: ['Blue, Yellow, Black, Green, Red', 'Red, Green, Blue, Purple, Orange', 'Yellow, Blue, Red, Green, Brown', 'Black, White, Red, Blue, Green'],
     correctAnswer: 'Blue, Yellow, Black, Green, Red',
     explanation: 'The Olympic rings are blue, yellow, black, green, and red, representing the unity of the five continents!',
+    funFact: 'The Olympic rings were designed in 1913 by Pierre de Coubertin, and each ring represents a different continent!',
     difficulty: 'easy',
   },
   {
@@ -207,6 +229,7 @@ export const sportsQuestions: Question[] = [
     options: ['Memory', 'Uno', 'Go Fish', 'Crazy Eights'],
     correctAnswer: 'Memory',
     explanation: 'In Memory (or Concentration), players flip cards to find matching pairs!',
+    funFact: 'The Memory card game was invented in 1959 and was originally called "Concentration"!',
     difficulty: 'easy',
   },
   {
@@ -216,6 +239,7 @@ export const sportsQuestions: Question[] = [
     options: ['Ball', 'Disc', 'Ring', 'Stone'],
     correctAnswer: 'Ball',
     explanation: 'In bowling, you roll a heavy ball to knock down pins!',
+    funFact: 'The first bowling alley in America was built in New York City in 1840!',
     difficulty: 'easy',
   },
   {
@@ -225,6 +249,7 @@ export const sportsQuestions: Question[] = [
     options: ['Volleyball', 'Hockey', 'Baseball', 'Golf'],
     correctAnswer: 'Volleyball',
     explanation: 'Volleyball is played on a court with a net in the middle!',
+    funFact: 'Volleyball was invented in 1895 by William G. Morgan, who called it "Mintonette" before it was renamed to volleyball!',
     difficulty: 'easy',
   },
   {
@@ -234,6 +259,7 @@ export const sportsQuestions: Question[] = [
     options: ['Scrabble', 'Monopoly', 'Chess', 'Clue'],
     correctAnswer: 'Scrabble',
     explanation: 'In Scrabble, players use letter tiles to create words and score points!',
+    funFact: 'Scrabble was invented during the Great Depression by Alfred Butts, who calculated the frequency of letters in the New York Times to create the tile distribution!',
     difficulty: 'easy',
   },
   {
@@ -243,6 +269,7 @@ export const sportsQuestions: Question[] = [
     options: ['Football', 'Soccer', 'Basketball', 'Tennis'],
     correctAnswer: 'Football',
     explanation: 'Football players wear helmets and pads for protection during the game!',
+    funFact: 'The first football helmets were made of leather and were introduced in the 1890s to protect players\' ears!',
     difficulty: 'easy',
   },
   {
@@ -252,6 +279,7 @@ export const sportsQuestions: Question[] = [
     options: ['Dice', 'Ball', 'Wheel', 'Card'],
     correctAnswer: 'Dice',
     explanation: 'Players roll dice to get random numbers in many board games!',
+    funFact: 'The oldest known dice were found in a 5000-year-old backgammon set in Iran!',
     difficulty: 'easy',
   },
   {
@@ -261,6 +289,7 @@ export const sportsQuestions: Question[] = [
     options: ['Softball', 'Tennis', 'Golf', 'Basketball'],
     correctAnswer: 'Softball',
     explanation: 'A softball is yellow with red stitches and is larger than a baseball!',
+    funFact: 'Softball was invented in 1887 as an indoor version of baseball, using a boxing glove as the ball!',
     difficulty: 'easy',
   },
   {
@@ -270,6 +299,7 @@ export const sportsQuestions: Question[] = [
     options: ['Twister', 'Chess', 'Checkers', 'Monopoly'],
     correctAnswer: 'Twister',
     explanation: 'In Twister, players spin the spinner to determine which colored spot to place their hands or feet on!',
+    funFact: 'Twister was originally called "Pretzel" and was the first game to use the human body as a game piece!',
     difficulty: 'easy',
   },
   {
@@ -279,6 +309,7 @@ export const sportsQuestions: Question[] = [
     options: ['Swimming', 'Tennis', 'Soccer', 'Basketball'],
     correctAnswer: 'Swimming',
     explanation: 'Swimming is a sport that takes place in a pool of water!',
+    funFact: 'Swimming has been part of the Olympics since the first modern Games in 1896!',
     difficulty: 'easy',
   },
   {
@@ -288,6 +319,7 @@ export const sportsQuestions: Question[] = [
     options: ['Monopoly', 'Chess', 'Scrabble', 'Clue'],
     correctAnswer: 'Monopoly',
     explanation: 'In Monopoly, players buy properties and collect rent from other players!',
+    funFact: 'The original Monopoly game was based on Atlantic City, New Jersey, where the creator\'s family vacationed!',
     difficulty: 'easy',
   },
   {
@@ -297,6 +329,7 @@ export const sportsQuestions: Question[] = [
     options: ['Soccer', 'Basketball', 'Tennis', 'Golf'],
     correctAnswer: 'Soccer',
     explanation: 'Soccer players try to kick the ball into a rectangular goal to score points!',
+    funFact: 'The first soccer goals were made from two posts with a rope tied between them!',
     difficulty: 'easy',
   },
   {
@@ -306,6 +339,7 @@ export const sportsQuestions: Question[] = [
     options: ['Yahtzee', 'Chess', 'Cards', 'Dominoes'],
     correctAnswer: 'Yahtzee',
     explanation: 'Yahtzee is played with five six-sided dice!',
+    funFact: 'Yahtzee was invented by a Canadian couple in 1954 and was originally called "The Yacht Game"!',
     difficulty: 'easy',
   },
   
@@ -317,6 +351,7 @@ export const sportsQuestions: Question[] = [
     options: ['3', '2', '4', '1'],
     correctAnswer: '3',
     explanation: 'A shot made from beyond the three-point line is worth 3 points in basketball!',
+    funFact: 'The three-point line was first introduced in the NBA in 1979, revolutionizing the game of basketball!',
     difficulty: 'medium',
   },
   {
@@ -326,6 +361,7 @@ export const sportsQuestions: Question[] = [
     options: ['10', '8', '12', '6'],
     correctAnswer: '10',
     explanation: 'Under the maximum score rule in golf, a player must pick up their ball after 10 strokes!',
+    funFact: 'The maximum score rule was introduced to speed up play and prevent extremely high scores from holding up other players!',
     difficulty: 'medium',
   },
   {
@@ -335,6 +371,7 @@ export const sportsQuestions: Question[] = [
     options: ['Bishop', 'Knight', 'Rook', 'Queen'],
     correctAnswer: 'Bishop',
     explanation: 'The bishop can only move diagonally across the chess board!',
+    funFact: 'The bishop piece was originally called an "elephant" in early versions of chess, and its diagonal movement represented the animal\'s trunk!',
     difficulty: 'medium',
   },
   {
@@ -344,6 +381,7 @@ export const sportsQuestions: Question[] = [
     options: ['6', '5', '7', '8'],
     correctAnswer: '6',
     explanation: 'A volleyball team has 6 players on the court during a game!',
+    funFact: 'Volleyball was originally called "Mintonette" and was invented as a less strenuous alternative to basketball!',
     difficulty: 'medium',
   },
   {
@@ -353,6 +391,7 @@ export const sportsQuestions: Question[] = [
     options: ['50', '25', '75', '100'],
     correctAnswer: '50',
     explanation: 'An Olympic swimming pool is 50 meters long!',
+    funFact: 'Olympic swimming pools contain about 2.5 million liters of water, enough to fill 1,000 average-sized bathtubs!',
     difficulty: 'medium',
   },
   {
@@ -362,6 +401,7 @@ export const sportsQuestions: Question[] = [
     options: ['Spare', 'Strike', 'Split', 'Turkey'],
     correctAnswer: 'Spare',
     explanation: 'A spare is when you knock down all pins using both throws in a frame!',
+    funFact: 'The term "spare" comes from the idea that you\'re "sparing" yourself from a bad score by knocking down all pins in two throws!',
     difficulty: 'medium',
   },
   {
@@ -371,6 +411,7 @@ export const sportsQuestions: Question[] = [
     options: ['52', '48', '54', '50'],
     correctAnswer: '52',
     explanation: 'A standard deck has 52 cards, not counting jokers!',
+    funFact: 'The 52 cards in a deck represent the 52 weeks in a year, and the four suits represent the four seasons!',
     difficulty: 'medium',
   },
   {
@@ -380,6 +421,7 @@ export const sportsQuestions: Question[] = [
     options: ['18', '16', '20', '22'],
     correctAnswer: '18',
     explanation: 'A basketball hoop has a diameter of 18 inches!',
+    funFact: 'The basketball hoop was originally a peach basket with the bottom still attached - players had to climb up to retrieve the ball!',
     difficulty: 'medium',
   },
   {
@@ -389,6 +431,7 @@ export const sportsQuestions: Question[] = [
     options: ['Love', 'Nil', 'Zero', 'Duck'],
     correctAnswer: 'Love',
     explanation: 'In tennis, a score of zero is called "love"!',
+    funFact: 'The term "love" in tennis comes from the French word "l\'oeuf" (the egg), which looks like a zero!',
     difficulty: 'medium',
   },
   {
@@ -398,6 +441,7 @@ export const sportsQuestions: Question[] = [
     options: ['6', '4', '8', '10'],
     correctAnswer: '6',
     explanation: 'A standard pool table has 6 pockets - one in each corner and one in the middle of each long side!',
+    funFact: 'The first pool tables were actually billiard tables with pockets added to make the game more challenging!',
     difficulty: 'medium',
   },
   {
@@ -407,6 +451,7 @@ export const sportsQuestions: Question[] = [
     options: ['10', '9', '11', '8'],
     correctAnswer: '10',
     explanation: 'A standard basketball hoop is 10 feet (3.05 meters) high!',
+    funFact: 'The 10-foot height was chosen because the first basketball hoops were attached to the running track balcony at the YMCA, which was exactly 10 feet high!',
     difficulty: 'medium',
   },
   {
@@ -416,6 +461,7 @@ export const sportsQuestions: Question[] = [
     options: ['3', '2', '4', '1'],
     correctAnswer: '3',
     explanation: 'A batter is out after three strikes in baseball!',
+    funFact: 'The term "strike" comes from the early days of baseball when a strike was literally a strike of the ball by the batter!',
     difficulty: 'medium',
   },
   {
@@ -425,6 +471,7 @@ export const sportsQuestions: Question[] = [
     options: ['40', '36', '44', '48'],
     correctAnswer: '40',
     explanation: 'A standard Monopoly board has 40 spaces around the perimeter!',
+    funFact: 'The original Monopoly board was based on Atlantic City, New Jersey, where the creator\'s family vacationed!',
     difficulty: 'medium',
   },
   {
@@ -434,6 +481,7 @@ export const sportsQuestions: Question[] = [
     options: ['1015', '900', '1200', '850'],
     correctAnswer: '1015',
     explanation: 'The theoretical maximum score in Scrabble is 1015 points!',
+    funFact: 'The highest recorded Scrabble score in a tournament game is 830 points, achieved by Karl Khoshnaw in 1982!',
     difficulty: 'medium',
   },
   {
@@ -443,6 +491,7 @@ export const sportsQuestions: Question[] = [
     options: ['45', '30', '40', '50'],
     correctAnswer: '45',
     explanation: 'Each half of a soccer game is 45 minutes long!',
+    funFact: 'The 45-minute halves were established in 1866 when the first official rules of soccer were written down!',
     difficulty: 'medium',
   },
   {
@@ -452,6 +501,7 @@ export const sportsQuestions: Question[] = [
     options: ['6', '5', '7', '8'],
     correctAnswer: '6',
     explanation: 'Chess has 6 different types of pieces: pawn, knight, bishop, rook, queen, and king!',
+    funFact: 'The modern chess pieces were standardized in the 15th century, with the queen becoming the most powerful piece on the board!',
     difficulty: 'medium',
   },
   {
@@ -461,6 +511,7 @@ export const sportsQuestions: Question[] = [
     options: ['7.26', '6.25', '8.13', '5.44'],
     correctAnswer: '7.26',
     explanation: 'A men\'s shot put weighs 7.26 kilograms (16 pounds)!',
+    funFact: 'The shot put event originated from throwing cannonballs in medieval times!',
     difficulty: 'medium',
   },
   {
@@ -470,6 +521,7 @@ export const sportsQuestions: Question[] = [
     options: ['15', '11', '13', '17'],
     correctAnswer: '15',
     explanation: 'A rugby union team has 15 players on the field during a match!',
+    funFact: 'Rugby was invented when William Webb Ellis picked up the ball during a soccer game and ran with it in 1823!',
     difficulty: 'medium',
   },
   {
@@ -479,6 +531,7 @@ export const sportsQuestions: Question[] = [
     options: ['60', '50', '40', '70'],
     correctAnswer: '60',
     explanation: 'The highest score in darts with one throw is triple 20, which equals 60 points!',
+    funFact: 'The modern dartboard was invented in 1896 by Brian Gamlin, who arranged the numbers to penalize inaccurate throws!',
     difficulty: 'medium',
   },
   {
@@ -488,6 +541,7 @@ export const sportsQuestions: Question[] = [
     options: ['15', '10', '12', '8'],
     correctAnswer: '15',
     explanation: 'In snooker, there are 15 red balls worth one point each!',
+    funFact: 'Snooker was invented by British Army officers in India in 1875, and the name comes from a slang term for inexperienced cadets!',
     difficulty: 'medium',
   },
   {
@@ -616,6 +670,7 @@ export const sportsQuestions: Question[] = [
     options: ['152.5', '150.0', '155.0', '147.5'],
     correctAnswer: '152.5',
     explanation: 'A regulation table tennis net must be exactly 152.5 millimeters (6 inches) high!',
+    funFact: 'Table tennis was banned in the Soviet Union from 1930 to 1950 because it was believed to be harmful to players\' eyes!',
     difficulty: 'hard',
   },
   {
@@ -625,6 +680,7 @@ export const sportsQuestions: Question[] = [
     options: ['2.37', '2.44', '2.29', '2.51'],
     correctAnswer: '2.37',
     explanation: 'The throwing line (oche) must be exactly 2.37 meters (7 feet 9.25 inches) from the face of the dartboard!',
+    funFact: 'The throwing line was originally called the "hockey" but was commonly mispronounced as "oche," which became the official term!',
     difficulty: 'hard',
   },
   {
@@ -634,6 +690,7 @@ export const sportsQuestions: Question[] = [
     options: ['12', '10', '14', '16'],
     correctAnswer: '12',
     explanation: 'Professional boxing gloves must not exceed 12 ounces in weight!',
+    funFact: 'Boxing gloves were not mandatory in professional boxing until 1892, following a fatal bare-knuckle match!',
     difficulty: 'hard',
   },
   {
@@ -643,6 +700,7 @@ export const sportsQuestions: Question[] = [
     options: ['52.5', '51.5', '53.5', '54.5'],
     correctAnswer: '52.5',
     explanation: 'A regulation snooker ball must be exactly 52.5 millimeters in diameter!',
+    funFact: 'Snooker balls were originally made from ivory until 1927 when synthetic materials were introduced due to conservation efforts!',
     difficulty: 'hard',
   },
   {
@@ -652,6 +710,7 @@ export const sportsQuestions: Question[] = [
     options: ['14-15', '12-13', '16-17', '13-14'],
     correctAnswer: '14-15',
     explanation: 'An NFL football must weigh between 14 and 15 ounces!',
+    funFact: 'NFL footballs are still handmade by Wilson Sporting Goods in Ada, Ohio, with each ball requiring 25 steps to complete!',
     difficulty: 'hard',
   },
   {
@@ -661,6 +720,7 @@ export const sportsQuestions: Question[] = [
     options: ['70', '60', '80', '65'],
     correctAnswer: '70',
     explanation: 'Olympic archers shoot at targets from exactly 70 meters away!',
+    funFact: 'The first Olympic archery competition in 1900 had a moving target event where archers shot at a mechanical bird!',
     difficulty: 'hard',
   },
   {
@@ -670,6 +730,7 @@ export const sportsQuestions: Question[] = [
     options: ['9.75 x 6.4', '9.5 x 6.2', '10 x 6.5', '9.25 x 6.1'],
     correctAnswer: '9.75 x 6.4',
     explanation: 'A regulation squash court measures exactly 9.75 meters long by 6.4 meters wide!',
+    funFact: 'Squash was invented at Harrow School in England in 1830 when students discovered a punctured racquetball created a more challenging game!',
     difficulty: 'hard',
   },
   {
@@ -679,6 +740,7 @@ export const sportsQuestions: Question[] = [
     options: ['22', '20', '24', '26'],
     correctAnswer: '22',
     explanation: 'A cricket pitch is exactly 22 yards (20.12 meters) long!',
+    funFact: 'The length of a cricket pitch (22 yards) was standardized in 1744, based on the length of the original pitch at London\'s Artillery Ground!',
     difficulty: 'hard',
   },
   {
@@ -688,6 +750,7 @@ export const sportsQuestions: Question[] = [
     options: ['56.7-58.5', '55.0-57.0', '58.5-60.0', '54.0-56.0'],
     correctAnswer: '56.7-58.5',
     explanation: 'A regulation tennis ball must weigh between 56.7 and 58.5 grams!',
+    funFact: 'Tennis balls are stored under pressure before matches because they lose their bounce after about 2-4 weeks of regular use!',
     difficulty: 'hard',
   },
   {
@@ -697,6 +760,7 @@ export const sportsQuestions: Question[] = [
     options: ['28', '25', '30', '32'],
     correctAnswer: '28',
     explanation: 'An Olympic weightlifting barbell must be exactly 28 millimeters in diameter!',
+    funFact: 'Olympic weightlifting bars are designed to flex and bend to help lifters generate momentum in certain lifts!',
     difficulty: 'hard',
   },
   {
@@ -706,6 +770,7 @@ export const sportsQuestions: Question[] = [
     options: ['2.24', '2.20', '2.28', '2.32'],
     correctAnswer: '2.24',
     explanation: 'The women\'s volleyball net height must be exactly 2.24 meters (7 feet 4 1/8 inches)!',
+    funFact: 'The different net heights for men and women were standardized in 1917, taking into account average height differences between genders!',
     difficulty: 'hard',
   },
   {
@@ -715,6 +780,7 @@ export const sportsQuestions: Question[] = [
     options: ['4.25', '4.00', '4.50', '4.75'],
     correctAnswer: '4.25',
     explanation: 'A regulation golf hole must be exactly 4.25 inches (108 millimeters) in diameter!',
+    funFact: 'The 4.25-inch hole size was standardized in 1891 when the first hole-cutting device was patented and mass-produced!',
     difficulty: 'hard',
   },
   {
@@ -724,6 +790,7 @@ export const sportsQuestions: Question[] = [
     options: ['29.5', '28.5', '30.5', '27.5'],
     correctAnswer: '29.5',
     explanation: 'An NBA basketball must have a circumference of exactly 29.5 inches!',
+    funFact: 'The NBA switched from brown to orange basketballs in 1957 to make them more visible to players and spectators!',
     difficulty: 'hard',
   },
   {
@@ -733,6 +800,7 @@ export const sportsQuestions: Question[] = [
     options: ['2.0', '1.8', '2.2', '1.6'],
     correctAnswer: '2.0',
     explanation: 'An Olympic swimming pool must be at least 2.0 meters deep!',
+    funFact: 'The minimum depth requirement was established to prevent waves from bouncing off the bottom and interfering with swimmers\' performance!',
     difficulty: 'hard',
   },
   {
@@ -742,6 +810,7 @@ export const sportsQuestions: Question[] = [
     options: ['156-163', '150-157', '160-167', '153-160'],
     correctAnswer: '156-163',
     explanation: 'A field hockey ball must weigh between 156 and 163 grams!',
+    funFact: 'Field hockey balls were originally made of cork core wrapped in leather until the 1980s when solid plastic balls were introduced!',
     difficulty: 'hard',
   },
   {
@@ -751,6 +820,7 @@ export const sportsQuestions: Question[] = [
     options: ['16', '14', '18', '20'],
     correctAnswer: '16',
     explanation: 'A regulation badminton shuttlecock must have exactly 16 feathers!',
+    funFact: 'The feathers used in professional shuttlecocks come exclusively from the left wing of geese because they create a better spin!',
     difficulty: 'hard',
   },
   {
@@ -760,6 +830,7 @@ export const sportsQuestions: Question[] = [
     options: ['1.067', '1.000', '1.125', '0.950'],
     correctAnswer: '1.067',
     explanation: 'Men\'s 110m hurdles must be exactly 1.067 meters (3 feet 6 inches) high!',
+    funFact: 'The 110m hurdles distance was originally 120 yards when it was first introduced at the 1896 Olympics!',
     difficulty: 'hard',
   },
   {
@@ -769,6 +840,7 @@ export const sportsQuestions: Question[] = [
     options: ['600', '500', '700', '800'],
     correctAnswer: '600',
     explanation: 'A women\'s competition javelin must weigh exactly 600 grams!',
+    funFact: 'The women\'s javelin was redesigned in 1999 to reduce the distance it could travel, making the sport safer for spectators!',
     difficulty: 'hard',
   },
   {
@@ -778,6 +850,7 @@ export const sportsQuestions: Question[] = [
     options: ['16', '14', '18', '20'],
     correctAnswer: '16',
     explanation: 'In table tennis, the ball must be tossed at least 16 centimeters high for a legal serve!',
+    funFact: 'This rule was introduced in 2002 to make it easier for players and spectators to see if a serve is legal!',
     difficulty: 'hard',
   },
   {
@@ -787,6 +860,7 @@ export const sportsQuestions: Question[] = [
     options: ['90', '85', '95', '88'],
     correctAnswer: '90',
     explanation: 'The distance between bases in MLB is exactly 90 feet (27.4 meters)!',
+    funFact: 'The 90-foot distance was chosen in 1857 because it created the perfect balance between the speed of runners and fielders\' throws!',
     difficulty: 'hard',
   },
   {
@@ -796,6 +870,7 @@ export const sportsQuestions: Question[] = [
     options: ['5.6', '5.4', '5.8', '6.0'],
     correctAnswer: '5.6',
     explanation: 'Rugby goal posts are exactly 5.6 meters (18 feet 4 inches) wide!',
+    funFact: 'Rugby goal posts were originally H-shaped and made of tree branches before standardization in 1877!',
     difficulty: 'hard',
   },
   {
@@ -805,6 +880,7 @@ export const sportsQuestions: Question[] = [
     options: ['2', '1.5', '2.5', '3'],
     correctAnswer: '2',
     explanation: 'A men\'s competition discus must weigh exactly 2 kilograms!',
+    funFact: 'The discus throw was one of the original events in the ancient Olympic Games, with the first recorded throw in 708 BCE!',
     difficulty: 'hard',
   },
   {
@@ -814,6 +890,7 @@ export const sportsQuestions: Question[] = [
     options: ['26', '24', '28', '30'],
     correctAnswer: '26',
     explanation: 'Olympic diving pools must maintain a temperature of 26 degrees Celsius!',
+    funFact: 'The water temperature is kept at exactly 26°C because it\'s warm enough to prevent muscle cramping but cool enough to keep divers alert!',
     difficulty: 'hard',
   },
   {
@@ -823,6 +900,7 @@ export const sportsQuestions: Question[] = [
     options: ['42', '40', '44', '46'],
     correctAnswer: '42',
     explanation: 'A regulation basketball backboard must be exactly 42 inches (106.7 cm) high!',
+    funFact: 'The first basketball backboards were made of wire mesh to prevent spectators from interfering with shots from the balcony!',
     difficulty: 'hard',
   },
   {
@@ -832,6 +910,7 @@ export const sportsQuestions: Question[] = [
     options: ['20', '18', '22', '24'],
     correctAnswer: '20',
     explanation: 'A professional boxing ring must be 20 feet by 20 feet inside the ropes!',
+    funFact: 'The term "ring" comes from the ancient practice of fighting within a circle drawn in the dirt, even though modern rings are square!',
     difficulty: 'hard',
   },
   {
@@ -841,6 +920,7 @@ export const sportsQuestions: Question[] = [
     options: ['410-450', '400-440', '420-460', '430-470'],
     correctAnswer: '410-450',
     explanation: 'A regulation soccer ball must weigh between 410 and 450 grams!',
+    funFact: 'The black and white pattern on soccer balls was introduced in 1970 to make them more visible on black-and-white TVs!',
     difficulty: 'hard',
   },
   {
@@ -850,6 +930,7 @@ export const sportsQuestions: Question[] = [
     options: ['1310', '1300', '1320', '1330'],
     correctAnswer: '1310',
     explanation: 'The distance between inner collars on an Olympic barbell is exactly 1310 millimeters!',
+    funFact: 'Olympic barbells are designed to bend and flex up to 8mm under heavy loads to help lifters generate momentum!',
     difficulty: 'hard',
   },
   {
@@ -859,6 +940,7 @@ export const sportsQuestions: Question[] = [
     options: ['2.34', '2.32', '2.36', '2.38'],
     correctAnswer: '2.34',
     explanation: 'A beach volleyball net for mixed competition must be exactly 2.34 meters high!',
+    funFact: 'Beach volleyball nets are slightly lower than indoor nets because sand makes it harder to jump as high!',
     difficulty: 'hard',
   },
   {
@@ -868,6 +950,7 @@ export const sportsQuestions: Question[] = [
     options: ['173', '170', '175', '178'],
     correctAnswer: '173',
     explanation: 'The center of the dartboard bullseye must be exactly 173 centimeters from the floor!',
+    funFact: 'The height of 173cm was chosen because it was the average chest height of British pub-goers in the 1920s!',
     difficulty: 'hard',
   },
   {
@@ -877,6 +960,7 @@ export const sportsQuestions: Question[] = [
     options: ['3', '2.8', '3.2', '2.6'],
     correctAnswer: '3',
     explanation: 'A water polo goal must be exactly 3 meters wide!',
+    funFact: 'Water polo was the first team sport introduced at the Olympics in 1900, but players sat on floating barrels to play!',
     difficulty: 'hard',
   },
   {
@@ -886,6 +970,7 @@ export const sportsQuestions: Question[] = [
     options: ['3/4', '1', '1/2', '5/8'],
     correctAnswer: '3/4',
     explanation: 'Professional ice hockey rinks must maintain ice thickness of exactly 3/4 inch!',
+    funFact: 'NHL rinks use special water purified through reverse osmosis to create clearer, harder ice that allows pucks to slide faster!',
     difficulty: 'hard',
   },
   {
@@ -895,6 +980,7 @@ export const sportsQuestions: Question[] = [
     options: ['7.26', '7.00', '7.50', '6.75'],
     correctAnswer: '7.26',
     explanation: 'A men\'s competition hammer must weigh exactly 7.26 kilograms (16 pounds)!',
+    funFact: 'The hammer throw evolved from the Celtic tradition of throwing actual sledgehammers at fairs and festivals!',
     difficulty: 'hard',
   },
   {
@@ -904,6 +990,7 @@ export const sportsQuestions: Question[] = [
     options: ['90', '88', '92', '86'],
     correctAnswer: '90',
     explanation: 'An Olympic épée blade must be exactly 90 centimeters long!',
+    funFact: 'The épée evolved from the French dueling sword, and its rules still reflect real dueling practices from the 19th century!',
     difficulty: 'hard',
   }
 ]; 
