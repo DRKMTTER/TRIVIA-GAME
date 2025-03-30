@@ -9,6 +9,7 @@ export const historyQuestions: Question[] = [
     options: ['George Washington', 'Thomas Jefferson', 'Abraham Lincoln', 'John Adams'],
     correctAnswer: 'George Washington',
     explanation: 'George Washington served as the first President from 1789 to 1797.',
+    funFact: 'George Washington was the only president to be unanimously elected by the Electoral College!',
     difficulty: 'easy',
   },
   {
@@ -18,6 +19,7 @@ export const historyQuestions: Question[] = [
     options: ['Egyptians', 'Romans', 'Greeks', 'Chinese'],
     correctAnswer: 'Egyptians',
     explanation: 'The ancient Egyptians built the pyramids as tombs for their pharaohs!',
+    funFact: 'The pyramids were built to protect the pharaohs\' bodies and treasures for the afterlife!',
     difficulty: 'easy',
   },
   {
@@ -27,6 +29,7 @@ export const historyQuestions: Question[] = [
     options: ['Great Wall', 'Stone Wall', 'Brick Wall', 'High Wall'],
     correctAnswer: 'Great Wall',
     explanation: 'The Great Wall of China is over 13,000 miles long!',
+    funFact: 'The Great Wall of China is the longest man-made structure in the world!',
     difficulty: 'easy',
   },
   {
@@ -36,6 +39,7 @@ export const historyQuestions: Question[] = [
     options: ['Europe', 'Asia', 'Africa', 'South America'],
     correctAnswer: 'Europe',
     explanation: 'The Roman Empire began in Rome, Italy, which is in Europe!',
+    funFact: 'The Roman Empire was the first to span the entire Mediterranean!',
     difficulty: 'easy',
   },
   {
@@ -45,6 +49,7 @@ export const historyQuestions: Question[] = [
     options: ['Atlantic', 'Pacific', 'Indian', 'Arctic'],
     correctAnswer: 'Atlantic',
     explanation: 'Columbus crossed the Atlantic Ocean in 1492!',
+    funFact: 'Columbus\'s voyage was originally intended to reach India, but he ended up in the Americas!',
     difficulty: 'easy',
   },
   {
@@ -54,6 +59,7 @@ export const historyQuestions: Question[] = [
     options: ['Titanic', 'Queen Mary', 'Mayflower', 'Santa Maria'],
     correctAnswer: 'Titanic',
     explanation: 'The Titanic sank after hitting an iceberg on April 15, 1912!',
+    funFact: 'The Titanic had only 20 lifeboats, enough for about half of its passengers, because the designers thought it was "unsinkable"!',
     difficulty: 'easy',
   },
   {
@@ -63,6 +69,7 @@ export const historyQuestions: Question[] = [
     options: ['Amelia Earhart', 'Marie Curie', 'Helen Keller', 'Rosa Parks'],
     correctAnswer: 'Amelia Earhart',
     explanation: 'Amelia Earhart made this historic flight in 1932!',
+    funFact: 'Amelia Earhart was also the first person to fly solo from Hawaii to California, a more difficult route than the Atlantic crossing!',
     difficulty: 'easy',
   },
   {
@@ -72,6 +79,7 @@ export const historyQuestions: Question[] = [
     options: ['Jamestown', 'Plymouth', 'Boston', 'New York'],
     correctAnswer: 'Jamestown',
     explanation: 'Jamestown was established in 1607 in what is now Virginia!',
+    funFact: 'The first settlers in Jamestown were all men - women didn\'t arrive until 1608!',
     difficulty: 'easy',
   },
   {
@@ -81,6 +89,7 @@ export const historyQuestions: Question[] = [
     options: ['Leonardo da Vinci', 'Michelangelo', 'Pablo Picasso', 'Vincent van Gogh'],
     correctAnswer: 'Leonardo da Vinci',
     explanation: 'Leonardo da Vinci painted the Mona Lisa in the early 1500s!',
+    funFact: 'The Mona Lisa has no eyebrows - this was a fashion trend in Renaissance Florence!',
     difficulty: 'easy',
   },
   {
@@ -90,6 +99,7 @@ export const historyQuestions: Question[] = [
     options: ['Lighthouse of Alexandria', 'Colossus of Rhodes', 'Hanging Gardens', 'Great Pyramid'],
     correctAnswer: 'Lighthouse of Alexandria',
     explanation: 'The Lighthouse of Alexandria was one of the Seven Wonders of the Ancient World!',
+    funFact: 'The Lighthouse of Alexandria was so tall that its light could be seen from 35 miles away!',
     difficulty: 'easy',
   },
   {
@@ -99,6 +109,7 @@ export const historyQuestions: Question[] = [
     options: ['Neil Armstrong', 'Buzz Aldrin', 'John Glenn', 'Yuri Gagarin'],
     correctAnswer: 'Neil Armstrong',
     explanation: 'Neil Armstrong took his "one small step" on July 20, 1969!',
+    funFact: 'Neil Armstrong\'s famous quote was actually "That\'s one small step for a man, one giant leap for mankind" - the "a" was lost in transmission!',
     difficulty: 'easy',
   },
   {
@@ -108,6 +119,7 @@ export const historyQuestions: Question[] = [
     options: ['Cusco', 'Lima', 'Quito', 'Machu Picchu'],
     correctAnswer: 'Cusco',
     explanation: 'Cusco was the capital of the Inca Empire in what is now Peru!',
+    funFact: 'Cusco was designed in the shape of a puma, with the main temple representing its head!',
     difficulty: 'easy',
   },
   {
@@ -117,6 +129,7 @@ export const historyQuestions: Question[] = [
     options: ['Europe', 'Asia', 'Africa', 'North America'],
     correctAnswer: 'Europe',
     explanation: 'The first Olympic Games were held in Ancient Greece, in Europe!',
+    funFact: 'The ancient Olympics were held every four years for over 1,000 years, from 776 BCE to 393 CE!',
     difficulty: 'easy',
   },
   {
@@ -126,6 +139,7 @@ export const historyQuestions: Question[] = [
     options: ['Airplane', 'Telephone', 'Light Bulb', 'Car'],
     correctAnswer: 'Airplane',
     explanation: 'The Wright brothers made the first powered flight in 1903!',
+    funFact: 'The Wright brothers\' first flight lasted only 12 seconds and covered a distance of 120 feet - shorter than the wingspan of a modern Boeing 747!',
     difficulty: 'easy',
   },
   {

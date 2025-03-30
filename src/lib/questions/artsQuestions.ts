@@ -8,7 +8,8 @@ export const artsQuestions: Question[] = [
     question: 'Who painted the Mona Lisa?',
     options: ['Leonardo da Vinci', 'Vincent van Gogh', 'Pablo Picasso', 'Michelangelo'],
     correctAnswer: 'Leonardo da Vinci',
-    explanation: 'Leonardo da Vinci painted the Mona Lisa between 1503 and 1519.',
+    explanation: 'Leonardo da Vinci painted the Mona Lisa in the early 1500s!',
+    funFact: 'The Mona Lisa has no eyebrows - this was a fashion trend in Renaissance Florence!',
     difficulty: 'easy',
   },
   {
@@ -53,7 +54,8 @@ export const artsQuestions: Question[] = [
     question: 'What instrument does a conductor use to direct an orchestra?',
     options: ['Baton', 'Violin', 'Trumpet', 'Piano'],
     correctAnswer: 'Baton',
-    explanation: 'A conductor uses a thin stick called a baton to guide the orchestra.',
+    explanation: 'A conductor uses a thin stick called a baton to guide the orchestra!',
+    funFact: 'The first conductors used rolled-up sheets of paper before the baton was invented in the 1820s!',
     difficulty: 'easy',
   },
   {
@@ -62,7 +64,8 @@ export const artsQuestions: Question[] = [
     question: 'Which Disney movie features a young lion named Simba?',
     options: ['The Lion King', 'Aladdin', 'Beauty and the Beast', 'Mulan'],
     correctAnswer: 'The Lion King',
-    explanation: 'The Lion King tells the story of Simba, a young lion who becomes king.',
+    explanation: 'The Lion King tells the story of Simba, a young lion who becomes king!',
+    funFact: 'The Lion King was the highest-grossing animated film of all time until Frozen was released in 2013!',
     difficulty: 'easy',
   },
   {
@@ -71,7 +74,8 @@ export const artsQuestions: Question[] = [
     question: 'What do you call a person who writes books?',
     options: ['Author', 'Painter', 'Singer', 'Actor'],
     correctAnswer: 'Author',
-    explanation: 'An author is someone who writes books, stories, or other written works.',
+    explanation: 'An author is someone who writes books, stories, or other written works!',
+    funFact: 'The first known author in history was Enheduanna, a woman who lived in ancient Mesopotamia around 2300 BCE!',
     difficulty: 'easy',
   },
   {
@@ -80,7 +84,8 @@ export const artsQuestions: Question[] = [
     question: 'Which of these is a string instrument?',
     options: ['Violin', 'Drum', 'Flute', 'Trumpet'],
     correctAnswer: 'Violin',
-    explanation: 'A violin is a string instrument played with a bow.',
+    explanation: 'A violin is a string instrument played with a bow!',
+    funFact: 'A violin has over 70 different parts, and the strings are traditionally made from sheep gut!',
     difficulty: 'easy',
   },
   {
@@ -90,6 +95,7 @@ export const artsQuestions: Question[] = [
     options: ['Green', 'Purple', 'Orange', 'Brown'],
     correctAnswer: 'Green',
     explanation: 'When you mix blue and yellow paint, you get green!',
+    funFact: 'In color theory, green is considered a "secondary" color because it\'s made by mixing two "primary" colors!',
     difficulty: 'easy',
   },
   {
@@ -98,7 +104,8 @@ export const artsQuestions: Question[] = [
     question: 'Who wrote "The Cat in the Hat"?',
     options: ['Dr. Seuss', 'Roald Dahl', 'E.B. White', 'A.A. Milne'],
     correctAnswer: 'Dr. Seuss',
-    explanation: 'Dr. Seuss wrote "The Cat in the Hat" in 1957.',
+    explanation: 'Dr. Seuss wrote "The Cat in the Hat" in 1957!',
+    funFact: 'Dr. Seuss wrote "The Cat in the Hat" using only 236 different words to help children learn to read!',
     difficulty: 'easy',
   },
   {
@@ -233,7 +240,8 @@ export const artsQuestions: Question[] = [
     question: 'What do you call a person who takes photographs?',
     options: ['Photographer', 'Painter', 'Sculptor', 'Author'],
     correctAnswer: 'Photographer',
-    explanation: 'A photographer is someone who takes pictures with a camera.',
+    explanation: 'A photographer is someone who takes pictures with a camera!',
+    funFact: 'The first photograph ever taken was in 1826 and required an exposure time of 8 hours!',
     difficulty: 'easy',
   },
   {
@@ -242,7 +250,8 @@ export const artsQuestions: Question[] = [
     question: 'Which of these is a percussion instrument?',
     options: ['Drum', 'Violin', 'Flute', 'Guitar'],
     correctAnswer: 'Drum',
-    explanation: 'A drum is a percussion instrument that you hit to make music.',
+    explanation: 'A drum is a percussion instrument that you hit to make music!',
+    funFact: 'The oldest known drum is over 7,000 years old and was found in China!',
     difficulty: 'easy',
   },
   {
@@ -251,7 +260,8 @@ export const artsQuestions: Question[] = [
     question: 'What do artists paint on?',
     options: ['Canvas', 'Palette', 'Brush', 'Easel'],
     correctAnswer: 'Canvas',
-    explanation: 'Artists often paint on canvas, which is a special type of fabric.',
+    explanation: 'Artists often paint on canvas, which is a special type of fabric!',
+    funFact: 'Canvas was originally made from hemp fibers until cotton became more popular in the 20th century!',
     difficulty: 'easy',
   },
   {

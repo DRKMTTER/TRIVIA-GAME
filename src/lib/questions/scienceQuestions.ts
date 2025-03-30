@@ -5,41 +5,105 @@ export const scienceQuestions: Question[] = [
   {
     id: 'science-1',
     category: 'science',
-    question: 'What planet is known as the Red Planet?',
-    options: ['Mars', 'Venus', 'Jupiter', 'Saturn'],
-    correctAnswer: 'Mars',
-    explanation: 'Mars appears red because of iron oxide (rust) on its surface!',
+    question: 'What is the closest star to Earth?',
+    options: ['Sun', 'Moon', 'Mars', 'Venus'],
+    correctAnswer: 'Sun',
+    explanation: 'The Sun is our closest star, providing light and heat to Earth!',
+    funFact: 'The Sun is so large that about 1.3 million Earths could fit inside it!',
     difficulty: 'easy',
   },
   {
     id: 'science-2',
     category: 'science',
-    question: 'What is the hardest natural substance on Earth?',
-    options: ['Diamond', 'Gold', 'Iron', 'Rock'],
-    correctAnswer: 'Diamond',
-    explanation: 'Diamonds are made of pure carbon and are the hardest natural material known!',
+    question: 'Which planet is known as the Red Planet?',
+    options: ['Mars', 'Venus', 'Jupiter', 'Saturn'],
+    correctAnswer: 'Mars',
+    explanation: 'Mars appears red because of iron oxide (rust) on its surface!',
+    funFact: 'Mars has the largest volcano in our solar system, Olympus Mons, which is about 3 times taller than Mount Everest!',
     difficulty: 'easy',
   },
   {
     id: 'science-3',
     category: 'science',
-    question: 'Which gas do plants absorb from the air?',
-    options: ['Carbon Dioxide', 'Oxygen', 'Nitrogen', 'Hydrogen'],
-    correctAnswer: 'Carbon Dioxide',
-    explanation: 'Plants use carbon dioxide during photosynthesis to make their food!',
+    question: 'What is the hardest natural substance?',
+    options: ['Diamond', 'Gold', 'Iron', 'Platinum'],
+    correctAnswer: 'Diamond',
+    explanation: 'Diamond is the hardest natural material known to humans!',
+    funFact: 'Diamonds are actually made of pure carbon, just like the graphite in pencils, but arranged in a different crystal structure!',
     difficulty: 'easy',
   },
   {
     id: 'science-4',
     category: 'science',
-    question: 'What is the largest organ in the human body?',
-    options: ['Skin', 'Heart', 'Brain', 'Liver'],
-    correctAnswer: 'Skin',
-    explanation: 'The skin is the largest organ, covering the entire body and protecting everything inside!',
+    question: 'Which animal has the longest neck?',
+    options: ['Giraffe', 'Elephant', 'Camel', 'Zebra'],
+    correctAnswer: 'Giraffe',
+    explanation: 'Giraffes have the longest necks of any animal, helping them reach leaves high in trees!',
+    funFact: 'Despite their long necks, giraffes have the same number of neck vertebrae (7) as humans do!',
     difficulty: 'easy',
   },
   {
     id: 'science-5',
+    category: 'science',
+    question: 'What is the fastest land animal?',
+    options: ['Cheetah', 'Lion', 'Tiger', 'Leopard'],
+    correctAnswer: 'Cheetah',
+    explanation: 'Cheetahs can run up to 70 miles per hour in short bursts!',
+    funFact: 'Cheetahs can accelerate from 0 to 60 miles per hour in just 3 seconds, faster than most sports cars!',
+    difficulty: 'easy',
+  },
+  {
+    id: 'science-6',
+    category: 'science',
+    question: 'Which is the largest organ in the human body?',
+    options: ['Skin', 'Heart', 'Brain', 'Liver'],
+    correctAnswer: 'Skin',
+    explanation: 'The skin is the largest organ, covering and protecting our entire body!',
+    funFact: 'The average adult\'s skin weighs about 8 pounds and covers an area of about 22 square feet!',
+    difficulty: 'easy',
+  },
+  {
+    id: 'science-7',
+    category: 'science',
+    question: 'What is the main gas that plants need to grow?',
+    options: ['Carbon Dioxide', 'Oxygen', 'Nitrogen', 'Hydrogen'],
+    correctAnswer: 'Carbon Dioxide',
+    explanation: 'Plants use carbon dioxide from the air to make their food through photosynthesis!',
+    funFact: 'Plants actually produce oxygen as a waste product during photosynthesis, which is why they are so important for our atmosphere!',
+    difficulty: 'easy',
+  },
+  {
+    id: 'science-8',
+    category: 'science',
+    question: 'Which planet has the most visible rings?',
+    options: ['Saturn', 'Jupiter', 'Uranus', 'Neptune'],
+    correctAnswer: 'Saturn',
+    explanation: 'Saturn has the most visible and spectacular ring system in our solar system!',
+    funFact: 'Saturn\'s rings are made mostly of ice and rock particles, ranging in size from tiny grains to boulders as large as houses!',
+    difficulty: 'easy',
+  },
+  {
+    id: 'science-9',
+    category: 'science',
+    question: 'What is the smallest unit of matter?',
+    options: ['Atom', 'Cell', 'Molecule', 'Electron'],
+    correctAnswer: 'Atom',
+    explanation: 'Atoms are the smallest units of matter that retain the properties of an element!',
+    funFact: 'Atoms are mostly empty space - if an atom was the size of a football stadium, the nucleus would be about the size of a pea!',
+    difficulty: 'easy',
+  },
+  {
+    id: 'science-10',
+    category: 'science',
+    question: 'Which animal has the largest brain?',
+    options: ['Sperm Whale', 'Elephant', 'Dolphin', 'Gorilla'],
+    correctAnswer: 'Sperm Whale',
+    explanation: 'The sperm whale has the largest brain of any animal on Earth!',
+    funFact: 'A sperm whale\'s brain can weigh up to 20 pounds, which is about 6 times larger than a human brain!',
+    difficulty: 'easy',
+  },
+  {
+    id: 'science-11',
     category: 'science',
     question: 'Which animal can live both in water and on land?',
     options: ['Frog', 'Fish', 'Bird', 'Lion'],
@@ -48,7 +112,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-6',
+    id: 'science-12',
     category: 'science',
     question: 'What do bees collect from flowers?',
     options: ['Nectar', 'Water', 'Leaves', 'Seeds'],
@@ -57,7 +121,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-7',
+    id: 'science-13',
     category: 'science',
     question: 'Which planet is closest to the Sun?',
     options: ['Mercury', 'Venus', 'Earth', 'Mars'],
@@ -66,7 +130,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-8',
+    id: 'science-14',
     category: 'science',
     question: 'What is the main gas in the air we breathe?',
     options: ['Nitrogen', 'Oxygen', 'Carbon Dioxide', 'Hydrogen'],
@@ -75,7 +139,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-9',
+    id: 'science-15',
     category: 'science',
     question: 'What do plants need to make their own food?',
     options: ['Sunlight', 'Meat', 'Milk', 'Sugar'],
@@ -84,7 +148,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-10',
+    id: 'science-16',
     category: 'science',
     question: 'Which sense organ helps us keep our balance?',
     options: ['Ears', 'Eyes', 'Nose', 'Tongue'],
@@ -93,7 +157,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-11',
+    id: 'science-17',
     category: 'science',
     question: 'What is the natural satellite of Earth?',
     options: ['Moon', 'Sun', 'Mars', 'Venus'],
@@ -102,7 +166,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-12',
+    id: 'science-18',
     category: 'science',
     question: 'Which animal never sleeps?',
     options: ['Bullfrog', 'Cat', 'Dog', 'Horse'],
@@ -111,7 +175,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-13',
+    id: 'science-19',
     category: 'science',
     question: 'What is the largest mammal in the world?',
     options: ['Blue Whale', 'Elephant', 'Giraffe', 'Hippopotamus'],
@@ -120,7 +184,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-14',
+    id: 'science-20',
     category: 'science',
     question: 'Which vitamin does your body produce when you are in the sun?',
     options: ['Vitamin D', 'Vitamin C', 'Vitamin A', 'Vitamin B'],
@@ -129,7 +193,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-15',
+    id: 'science-21',
     category: 'science',
     question: 'What is the hardest bone in the human body?',
     options: ['Jawbone', 'Skull', 'Femur', 'Spine'],
@@ -138,7 +202,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-16',
+    id: 'science-22',
     category: 'science',
     question: 'What is the study of weather called?',
     options: ['Meteorology', 'Biology', 'Geology', 'Astronomy'],
@@ -147,66 +211,12 @@ export const scienceQuestions: Question[] = [
     difficulty: 'easy',
   },
   {
-    id: 'science-17',
-    category: 'science',
-    question: 'What is the smallest unit of matter?',
-    options: ['Atom', 'Cell', 'Molecule', 'Electron'],
-    correctAnswer: 'Atom',
-    explanation: 'An atom is the smallest unit of matter that still retains the properties of an element!',
-    difficulty: 'easy',
-  },
-  {
-    id: 'science-18',
-    category: 'science',
-    question: 'Which animal has black and white stripes?',
-    options: ['Zebra', 'Lion', 'Giraffe', 'Elephant'],
-    correctAnswer: 'Zebra',
-    explanation: 'Zebras have distinctive black and white stripes that help confuse predators!',
-    difficulty: 'easy',
-  },
-  {
-    id: 'science-19',
-    category: 'science',
-    question: 'What do you call a scientist who studies rocks?',
-    options: ['Geologist', 'Biologist', 'Chemist', 'Physicist'],
-    correctAnswer: 'Geologist',
-    explanation: 'A geologist studies rocks, minerals, and the physical structure of the Earth!',
-    difficulty: 'easy',
-  },
-  {
-    id: 'science-20',
-    category: 'science',
-    question: 'Which sense helps you taste food?',
-    options: ['Taste', 'Smell', 'Touch', 'Sight'],
-    correctAnswer: 'Taste',
-    explanation: 'Your sense of taste comes from taste buds on your tongue!',
-    difficulty: 'easy',
-  },
-  {
-    id: 'science-21',
-    category: 'science',
-    question: 'What is the process of water changing from liquid to gas called?',
-    options: ['Evaporation', 'Condensation', 'Freezing', 'Melting'],
-    correctAnswer: 'Evaporation',
-    explanation: 'Evaporation happens when liquid water turns into water vapor (gas)!',
-    difficulty: 'easy',
-  },
-  {
-    id: 'science-22',
-    category: 'science',
-    question: 'Which animal is known as the king of the jungle?',
-    options: ['Lion', 'Tiger', 'Elephant', 'Gorilla'],
-    correctAnswer: 'Lion',
-    explanation: 'Lions are called kings of the jungle because of their majestic appearance and strength!',
-    difficulty: 'easy',
-  },
-  {
     id: 'science-23',
     category: 'science',
-    question: 'What do you call a baby frog?',
-    options: ['Tadpole', 'Calf', 'Puppy', 'Kitten'],
-    correctAnswer: 'Tadpole',
-    explanation: 'A tadpole is a baby frog that lives in water and has a tail!',
+    question: 'What is the smallest bone in the human body?',
+    options: ['Stapes', 'Femur', 'Radius', 'Tibia'],
+    correctAnswer: 'Stapes',
+    explanation: 'The stapes is a tiny bone in your ear that helps you hear!',
     difficulty: 'easy',
   },
   {
@@ -225,6 +235,7 @@ export const scienceQuestions: Question[] = [
     options: ['Jupiter', 'Saturn', 'Mars', 'Earth'],
     correctAnswer: 'Jupiter',
     explanation: 'Jupiter is so big that more than 1,300 Earths could fit inside it!',
+    funFact: 'Jupiter has a Great Red Spot that is actually a giant storm that has been raging for at least 400 years!',
     difficulty: 'easy',
   },
   {
@@ -234,6 +245,7 @@ export const scienceQuestions: Question[] = [
     options: ['Chameleon', 'Snake', 'Lizard', 'Turtle'],
     correctAnswer: 'Chameleon',
     explanation: 'Chameleons can change their color to hide from predators or communicate!',
+    funFact: 'Chameleons don\'t just change color to camouflage - they also change color based on their mood, temperature, and to communicate with other chameleons!',
     difficulty: 'easy',
   },
   {
@@ -243,6 +255,7 @@ export const scienceQuestions: Question[] = [
     options: ['Constellation', 'Galaxy', 'Solar System', 'Meteor'],
     correctAnswer: 'Constellation',
     explanation: 'A constellation is a group of stars that forms a recognizable pattern in the night sky!',
+    funFact: 'The Big Dipper is not actually a constellation - it\'s part of a larger constellation called Ursa Major (the Great Bear)!',
     difficulty: 'easy',
   },
   {
@@ -358,15 +371,6 @@ export const scienceQuestions: Question[] = [
   {
     id: 'science-40',
     category: 'science',
-    question: 'What is the smallest bone in the human body?',
-    options: ['Stapes', 'Femur', 'Radius', 'Tibia'],
-    correctAnswer: 'Stapes',
-    explanation: 'The stapes is a tiny bone in your ear that helps you hear!',
-    difficulty: 'medium',
-  },
-  {
-    id: 'science-41',
-    category: 'science',
     question: 'How many chambers does a human heart have?',
     options: ['4', '2', '3', '6'],
     correctAnswer: '4',
@@ -374,7 +378,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-42',
+    id: 'science-41',
     category: 'science',
     question: 'What is the process of a solid changing directly into a gas called?',
     options: ['Sublimation', 'Evaporation', 'Condensation', 'Melting'],
@@ -383,7 +387,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-43',
+    id: 'science-42',
     category: 'science',
     question: 'Which planet is known as the "Morning Star"?',
     options: ['Venus', 'Mars', 'Mercury', 'Jupiter'],
@@ -392,7 +396,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-44',
+    id: 'science-43',
     category: 'science',
     question: 'What type of energy is stored in food?',
     options: ['Chemical', 'Kinetic', 'Potential', 'Thermal'],
@@ -401,7 +405,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-45',
+    id: 'science-44',
     category: 'science',
     question: 'What is the study of fossils called?',
     options: ['Paleontology', 'Archaeology', 'Biology', 'Geology'],
@@ -410,7 +414,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-46',
+    id: 'science-45',
     category: 'science',
     question: 'Which element is most abundant in Earth\'s atmosphere?',
     options: ['Nitrogen', 'Oxygen', 'Carbon', 'Hydrogen'],
@@ -419,7 +423,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-47',
+    id: 'science-46',
     category: 'science',
     question: 'What is the speed of sound in miles per hour?',
     options: ['767', '670', '867', '567'],
@@ -428,7 +432,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-48',
+    id: 'science-47',
     category: 'science',
     question: 'What is the unit of electrical resistance?',
     options: ['Ohm', 'Volt', 'Ampere', 'Watt'],
@@ -437,7 +441,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-49',
+    id: 'science-48',
     category: 'science',
     question: 'Which blood type is known as the universal donor?',
     options: ['O-', 'AB+', 'A+', 'B-'],
@@ -446,7 +450,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-50',
+    id: 'science-49',
     category: 'science',
     question: 'What is the study of earthquakes called?',
     options: ['Seismology', 'Geology', 'Geography', 'Meteorology'],
@@ -455,7 +459,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-51',
+    id: 'science-50',
     category: 'science',
     question: 'Which planet has the most visible rings?',
     options: ['Saturn', 'Jupiter', 'Uranus', 'Neptune'],
@@ -464,7 +468,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-52',
+    id: 'science-51',
     category: 'science',
     question: 'What is the process of plants releasing water vapor called?',
     options: ['Transpiration', 'Respiration', 'Photosynthesis', 'Condensation'],
@@ -473,7 +477,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-53',
+    id: 'science-52',
     category: 'science',
     question: 'What is the study of insects called?',
     options: ['Entomology', 'Zoology', 'Biology', 'Ecology'],
@@ -482,7 +486,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-54',
+    id: 'science-53',
     category: 'science',
     question: 'How many pairs of wings do bees have?',
     options: ['2', '1', '3', '4'],
@@ -491,7 +495,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-55',
+    id: 'science-54',
     category: 'science',
     question: 'What is the study of the brain called?',
     options: ['Neurology', 'Cardiology', 'Psychology', 'Biology'],
@@ -500,7 +504,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-56',
+    id: 'science-55',
     category: 'science',
     question: 'Which element has the chemical symbol Fe?',
     options: ['Iron', 'Gold', 'Silver', 'Copper'],
@@ -509,7 +513,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-57',
+    id: 'science-56',
     category: 'science',
     question: 'What is the largest species of shark?',
     options: ['Whale Shark', 'Great White', 'Tiger Shark', 'Hammerhead'],
@@ -518,7 +522,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-58',
+    id: 'science-57',
     category: 'science',
     question: 'Which planet is known as the Ice Giant?',
     options: ['Uranus', 'Neptune', 'Saturn', 'Mars'],
@@ -527,7 +531,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-59',
+    id: 'science-58',
     category: 'science',
     question: 'What is the study of weather called?',
     options: ['Meteorology', 'Geology', 'Biology', 'Astronomy'],
@@ -536,7 +540,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-60',
+    id: 'science-59',
     category: 'science',
     question: 'Which gas makes up most of the Sun?',
     options: ['Hydrogen', 'Helium', 'Oxygen', 'Nitrogen'],
@@ -545,7 +549,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-61',
+    id: 'science-60',
     category: 'science',
     question: 'What type of rock is formed by cooled lava?',
     options: ['Igneous', 'Sedimentary', 'Metamorphic', 'Limestone'],
@@ -554,7 +558,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-62',
+    id: 'science-61',
     category: 'science',
     question: 'Which part of the cell contains genetic material?',
     options: ['Nucleus', 'Membrane', 'Cytoplasm', 'Mitochondria'],
@@ -563,7 +567,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-63',
+    id: 'science-62',
     category: 'science',
     question: 'What is the study of plants called?',
     options: ['Botany', 'Zoology', 'Biology', 'Ecology'],
@@ -572,7 +576,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-64',
+    id: 'science-63',
     category: 'science',
     question: 'Which animal has the longest neck?',
     options: ['Giraffe', 'Elephant', 'Ostrich', 'Camel'],
@@ -581,7 +585,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-65',
+    id: 'science-64',
     category: 'science',
     question: 'What is the study of space called?',
     options: ['Astronomy', 'Astrology', 'Geography', 'Geology'],
@@ -590,7 +594,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-66',
+    id: 'science-65',
     category: 'science',
     question: 'Which planet is closest to the Sun?',
     options: ['Mercury', 'Venus', 'Earth', 'Mars'],
@@ -599,7 +603,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'medium',
   },
   {
-    id: 'science-67',
+    id: 'science-66',
     category: 'science',
     question: 'What is the smallest unit of life?',
     options: ['Cell', 'Atom', 'Molecule', 'Tissue'],
@@ -610,7 +614,7 @@ export const scienceQuestions: Question[] = [
 
   // Hard Science Questions (33)
   {
-    id: 'science-68',
+    id: 'science-67',
     category: 'science',
     question: 'What is the speed of light in miles per second?',
     options: ['186,282', '150,000', '200,000', '175,000'],
@@ -619,7 +623,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-69',
+    id: 'science-68',
     category: 'science',
     question: 'Which subatomic particle has a negative charge?',
     options: ['Electron', 'Proton', 'Neutron', 'Positron'],
@@ -628,7 +632,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-70',
+    id: 'science-69',
     category: 'science',
     question: 'What is the atomic number of gold?',
     options: ['79', '47', '29', '82'],
@@ -637,7 +641,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-71',
+    id: 'science-70',
     category: 'science',
     question: 'What is the pH of a neutral solution?',
     options: ['7', '0', '14', '10'],
@@ -646,7 +650,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-72',
+    id: 'science-71',
     category: 'science',
     question: 'What is the most abundant element in the universe?',
     options: ['Hydrogen', 'Helium', 'Carbon', 'Oxygen'],
@@ -655,7 +659,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-73',
+    id: 'science-72',
     category: 'science',
     question: 'What is the process of nuclear fusion in stars called?',
     options: ['Proton-proton chain', 'Fission', 'Radioactivity', 'Decay'],
@@ -664,7 +668,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-74',
+    id: 'science-73',
     category: 'science',
     question: 'What is the smallest particle of an element that maintains its properties?',
     options: ['Atom', 'Molecule', 'Cell', 'Electron'],
@@ -673,7 +677,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-75',
+    id: 'science-74',
     category: 'science',
     question: 'What is the process of cell division called?',
     options: ['Mitosis', 'Photosynthesis', 'Respiration', 'Digestion'],
@@ -682,7 +686,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-76',
+    id: 'science-75',
     category: 'science',
     question: 'What is the unit of force in the metric system?',
     options: ['Newton', 'Joule', 'Watt', 'Pascal'],
@@ -691,7 +695,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-77',
+    id: 'science-76',
     category: 'science',
     question: 'What is the chemical formula for table salt?',
     options: ['NaCl', 'H2O', 'CO2', 'O2'],
@@ -700,7 +704,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-78',
+    id: 'science-77',
     category: 'science',
     question: 'What is the study of heredity and variation in organisms?',
     options: ['Genetics', 'Biology', 'Chemistry', 'Physics'],
@@ -709,7 +713,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-79',
+    id: 'science-78',
     category: 'science',
     question: 'What is the largest known galaxy?',
     options: ['IC 1101', 'Milky Way', 'Andromeda', 'Triangulum'],
@@ -718,7 +722,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-80',
+    id: 'science-79',
     category: 'science',
     question: 'What is the process of converting sugar into energy called?',
     options: ['Cellular Respiration', 'Photosynthesis', 'Fermentation', 'Digestion'],
@@ -727,7 +731,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-81',
+    id: 'science-80',
     category: 'science',
     question: 'What is the study of the interaction between organisms and their environment?',
     options: ['Ecology', 'Biology', 'Zoology', 'Botany'],
@@ -736,7 +740,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-82',
+    id: 'science-81',
     category: 'science',
     question: 'What is the speed of sound in meters per second?',
     options: ['343', '293', '393', '443'],
@@ -745,7 +749,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-83',
+    id: 'science-82',
     category: 'science',
     question: 'What is the process of rocks changing form due to heat and pressure?',
     options: ['Metamorphism', 'Erosion', 'Weathering', 'Deposition'],
@@ -754,7 +758,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-84',
+    id: 'science-83',
     category: 'science',
     question: 'What is the study of the Earth\'s atmosphere and weather patterns?',
     options: ['Meteorology', 'Geology', 'Geography', 'Astronomy'],
@@ -763,7 +767,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-85',
+    id: 'science-84',
     category: 'science',
     question: 'What is the process of a liquid changing to a gas at its boiling point?',
     options: ['Vaporization', 'Condensation', 'Sublimation', 'Freezing'],
@@ -772,7 +776,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-86',
+    id: 'science-85',
     category: 'science',
     question: 'What is the study of the properties and behavior of light?',
     options: ['Optics', 'Acoustics', 'Mechanics', 'Thermodynamics'],
@@ -781,7 +785,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-87',
+    id: 'science-86',
     category: 'science',
     question: 'What is the process of plants making food called?',
     options: ['Photosynthesis', 'Respiration', 'Digestion', 'Absorption'],
@@ -790,7 +794,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-88',
+    id: 'science-87',
     category: 'science',
     question: 'What is the study of the chemical processes in living organisms?',
     options: ['Biochemistry', 'Physics', 'Geology', 'Astronomy'],
@@ -799,7 +803,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-89',
+    id: 'science-88',
     category: 'science',
     question: 'What is the smallest unit of digital information?',
     options: ['Bit', 'Byte', 'Kilobyte', 'Megabyte'],
@@ -808,7 +812,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-90',
+    id: 'science-89',
     category: 'science',
     question: 'What is the process of DNA making a copy of itself called?',
     options: ['Replication', 'Transcription', 'Translation', 'Mutation'],
@@ -817,7 +821,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-91',
+    id: 'science-90',
     category: 'science',
     question: 'What is the study of the motion of objects?',
     options: ['Mechanics', 'Thermodynamics', 'Optics', 'Acoustics'],
@@ -826,7 +830,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-92',
+    id: 'science-91',
     category: 'science',
     question: 'What is the process of converting written code into machine language?',
     options: ['Compilation', 'Execution', 'Debugging', 'Testing'],
@@ -835,7 +839,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-93',
+    id: 'science-92',
     category: 'science',
     question: 'What is the study of the properties of matter and energy?',
     options: ['Physics', 'Chemistry', 'Biology', 'Geology'],
@@ -844,7 +848,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-94',
+    id: 'science-93',
     category: 'science',
     question: 'What is the process of rocks breaking down into smaller pieces?',
     options: ['Weathering', 'Erosion', 'Deposition', 'Metamorphism'],
@@ -853,7 +857,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-95',
+    id: 'science-94',
     category: 'science',
     question: 'What is the study of the Earth\'s physical structure and substance?',
     options: ['Geology', 'Geography', 'Meteorology', 'Astronomy'],
@@ -862,7 +866,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-96',
+    id: 'science-95',
     category: 'science',
     question: 'What is the process of converting atmospheric nitrogen into a usable form?',
     options: ['Nitrogen Fixation', 'Photosynthesis', 'Respiration', 'Decomposition'],
@@ -871,7 +875,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-97',
+    id: 'science-96',
     category: 'science',
     question: 'What is the study of the properties and behavior of sound?',
     options: ['Acoustics', 'Optics', 'Mechanics', 'Thermodynamics'],
@@ -880,7 +884,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-98',
+    id: 'science-97',
     category: 'science',
     question: 'What is the process of converting genetic information from DNA to RNA?',
     options: ['Transcription', 'Translation', 'Replication', 'Mutation'],
@@ -889,7 +893,7 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-99',
+    id: 'science-98',
     category: 'science',
     question: 'What is the study of heat and its transformation into other forms of energy?',
     options: ['Thermodynamics', 'Mechanics', 'Optics', 'Acoustics'],
@@ -898,12 +902,21 @@ export const scienceQuestions: Question[] = [
     difficulty: 'hard',
   },
   {
-    id: 'science-100',
+    id: 'science-99',
     category: 'science',
     question: 'What is the process of converting RNA into protein?',
     options: ['Translation', 'Transcription', 'Replication', 'Mutation'],
     correctAnswer: 'Translation',
     explanation: 'Translation is how cells create proteins based on RNA instructions!',
+    difficulty: 'hard',
+  },
+  {
+    id: 'science-100',
+    category: 'science',
+    question: 'What is the process of converting written code into machine language?',
+    options: ['Compilation', 'Execution', 'Debugging', 'Testing'],
+    correctAnswer: 'Compilation',
+    explanation: 'A compiler converts human-readable code into machine-executable instructions!',
     difficulty: 'hard',
   }
 ]; 

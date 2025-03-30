@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Question } from '@/lib/types';
 
@@ -12,6 +12,24 @@ interface QuestionCardProps {
 export default function QuestionCard({ question, onAnswer }: QuestionCardProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
+  const [shuffledOptions, setShuffledOptions] = useState<string[]>([]);
+
+  // Function to shuffle array using Fisher-Yates algorithm
+  const shuffleArray = (array: string[]) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  // Shuffle options only when the question changes
+  useEffect(() => {
+    setShuffledOptions(shuffleArray(question.options));
+    setSelectedAnswer(null);
+    setShowResult(false);
+  }, [question]);
 
   const handleAnswerClick = (answer: string) => {
     if (selectedAnswer) return;
@@ -20,7 +38,7 @@ export default function QuestionCard({ question, onAnswer }: QuestionCardProps) 
     const isCorrect = answer === question.correctAnswer;
     setTimeout(() => {
       onAnswer(isCorrect);
-    }, 2000);
+    }, 3000);
   };
 
   return (
@@ -34,7 +52,7 @@ export default function QuestionCard({ question, onAnswer }: QuestionCardProps) 
       </div>
 
       <div className="grid grid-cols-1 gap-4">
-        {question.options.map((option, index) => (
+        {shuffledOptions.map((option, index) => (
           <motion.button
             key={index}
             whileHover={{ scale: 1.02 }}
@@ -79,6 +97,12 @@ export default function QuestionCard({ question, onAnswer }: QuestionCardProps) 
           </div>
           {question.explanation && (
             <div className="mt-2 text-gray-600">{question.explanation}</div>
+          )}
+          {selectedAnswer === question.correctAnswer && question.funFact && (
+            <div className="mt-4 p-4 bg-purple-50 rounded-lg">
+              <div className="text-purple-800 font-semibold mb-2">Fun Fact!</div>
+              <div className="text-gray-700">{question.funFact}</div>
+            </div>
           )}
         </motion.div>
       )}
