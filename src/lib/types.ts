@@ -5,15 +5,16 @@ export type Category = {
   icon: string;
 };
 
-export type Question = {
+export interface Question {
   id: string;
   category: string;
   question: string;
   options: string[];
   correctAnswer: string;
-  explanation?: string;
+  explanation: string;
+  funFact: string;
   difficulty: 'easy' | 'medium' | 'hard';
-};
+}
 
 export type Character = {
   id: string;
